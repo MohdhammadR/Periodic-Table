@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: sans-serif
+}
+.explain{
+    width: 100px;
+    height: 120px;
+    border-radius: 8px;
+}
+.explain-p{
+    font-size: 13px
+}
+
+.explain-h2{
+    font-size: 45px
+}
+
+.names{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.explain_hydrogen{
+    margin-left: 210px;
+}
+
+.color-box{
+    width: 11px;
+    height: 11px;
+    display: inline-block; 
+}
+
+.define_color td{
+    text-align: left
+}
+
+.define_color{
+    margin-top: 20px;
+    font-size: 11px;
+    
+}
+
+.periodic_table{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.periodic_table h1{
+    padding-bottom: 60px;
+    font-size: 42px;
+}
+
+.periodic_table .elements1{
+    width: 1300px;
+    height: 600px;
+}
+
+.periodic_table .elements1 td{
+    
+    width: 50px;
+    border-radius: 8px;
+}
+
+.periodic_table .elements2{
+    height: 170px;
+    width: 1090px;
+    margin-top: 25px;
+    margin-left: 140px
+}
+
+.periodic_table .elements2 td{
+    
+    width: 50px;
+    border-radius: 8px;
+}
+
+.hidden{
+    visibility: hidden;
+}
+.groups{
+    font-size: 12px;
+    vertical-align: bottom;
+    font-weight: bolder;
+}
+p{
+    font-size: 8px;
+    font-weight: bold;
+}
+h2{
+    font-size: 30px;
+    font-weight: 1500 
+}
+.reactive_nonmetals{
+    background-color: #ACC780;
+}
+.alkali_metals{
+    background-color: #B32430;
+}
+.alkaline_earth_metals{
+    background-color: #E3A632;
+}
+.transition_metals{
+    background-color: #A3BDE1;
+}
+.post-transition_metals{
+    background-color: #AF95C2;
+}
+.metalloids{
+    background-color: #F1CF34;
+}
+.noble_gases{
+    background-color: #E4B0C9;
+}
+.unknown_chemical_prop{
+    background-color: #C4C4C4;
+}
+.Lanthanides{
+    background-color: #5996D1;
+}
+.Actinides{
+    background-color: #92C6A9;
+}
+.color_change{
+    color: white;
+}
+.gas{
+    color: rgb(196, 45, 45);
+}
+.liquid{
+    color: rgb(64, 64, 184);
+}
+.solid{
+    color: black;
+}
+.unknown{
+    color: gray;
+}
+
+#upper{
+    width: 750px;
+    left: 175px;
+    top: 120px;
+    z-index: 2;
+    position: absolute;
+}
+#lower{
+    z-index: 1;
+    position: relative
+}
